@@ -1,8 +1,8 @@
-# SVX-Handy
+# SVX-Talkie
 
 **A small 3D-printable Wi-Fi PTT handheld for SvxLink radioamateur nodes.**
 
-SVX-Handy is a simple handheld terminal that looks and feels like a small radio, but sends and receives audio over Wi-Fi to a SvxLink node.
+SVX-Talkie is a simple handheld terminal that looks and feels like a small radio, but sends and receives audio over Wi-Fi to a SvxLink node.
 
 It is intended as an open, non-commercial radioamateur project for people who want a physical PTT device instead of using an Android POC app.
 
@@ -13,7 +13,7 @@ Author: **Silviu YO6SAY**
 
 ## What it does
 
-SVX-Handy captures microphone audio, encodes it with Opus, sends it over Wi-Fi, and plays received audio through a small speaker.
+SVX-Talkie captures microphone audio, encodes it with Opus, sends it over Wi-Fi, and plays received audio through a small speaker.
 
 The actual radio node remains SvxLink running on Linux.
 
@@ -302,7 +302,7 @@ The project needs a small server or node agent between the handheld and SvxLink.
 For a simple first implementation:
 
 ```text
-SVX-Handy handheld
+SVX-Talkie handheld
         |
         | Opus over UDP
         v
@@ -447,7 +447,7 @@ Recommendations:
 
 ## Amateur-radio notes
 
-SVX-Handy is only a Wi-Fi terminal.
+SVX-Talkie is only a Wi-Fi terminal.
 
 When it controls a SvxLink node connected to RF, the node owner and operator are responsible for:
 
