@@ -8,6 +8,7 @@ It is intended as an open, non-commercial radioamateur project for people who wa
 
 Author: **Silviu YO6SAY**
 
+![SVX-Handy concept](concept.png)
 ---
 
 ## What it does
