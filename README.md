@@ -1,4 +1,4 @@
-# SVX-Talkie
+# SVX-Talkie Transceiver Concept
 
 **A small 3D-printable Wi-Fi PTT handheld for SvxLink radioamateur nodes.**
 
