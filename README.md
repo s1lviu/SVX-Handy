@@ -8,7 +8,7 @@ It is intended as an open, non-commercial radioamateur project for people who wa
 
 Author: **Silviu YO6SAY**
 
-![SVX-Handy concept](concept.png)
+![SVX-Talkie concept](concept.png)
 ---
 
 ## What it does
@@ -18,14 +18,14 @@ SVX-Talkie captures microphone audio, encodes it with Opus, sends it over Wi-Fi,
 The actual radio node remains SvxLink running on Linux.
 
 ```text
-[SVX-Handy]
+[SVX-Talkie]
 ESP32-S3 + mic + speaker + PTT
         |
         | Wi-Fi
         | RTP/UDP Opus audio
         | WebSocket/HTTPS control
         v
-[SVX-Handy server / node agent]
+[SVX-Talkie server / node agent]
         |
         v
 [SvxLink on Linux]
